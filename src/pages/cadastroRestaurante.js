@@ -57,7 +57,7 @@ export default class Restaurant extends Component {
                         </Form.Row>
                         <Form.Row>
                         <Form.Group as={Col} controlId="formGridEspecialidade">
-                            <Form.Label className="details-form">Especilidade</Form.Label>
+                            <Form.Label className="details-form">Especialidade</Form.Label>
                             <Form.Control  className="font-forms" placeholder="Informe a especilidade do estabelecimento" value={this.state.especialidade} onChange={this.changeField.bind(this,'especialidade')} />
                         </Form.Group>
                         <Form.Group as={Col} controlId="formGridCNPJ">
@@ -66,7 +66,7 @@ export default class Restaurant extends Component {
                         </Form.Group>
                         </Form.Row>
                         <Form.Group controlId="formGridendereco">
-                            <Form.Label className="details-form">Enreceço</Form.Label>
+                            <Form.Label className="details-form">Endereço</Form.Label>
                             <Form.Control  className="font-forms" placeholder="Informe o endereço" value={this.state.endereco} onChange={this.changeField.bind(this,'endereco')} />
                         </Form.Group>
 
